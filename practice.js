@@ -67,7 +67,7 @@ let dog = {
 	name: "Fido",
 	color: "blue/black",
 	age: 2,
-	goodboy: true
+	goodBoy: true
 };
 
 //...access the dog's name from the object and assign it to a
@@ -91,7 +91,7 @@ function nameCheck(name) {
 	} else if (name === "Bryan") {
 		return "Hey Bryan!";
 	} else {
-		"Cool name, " + name;
+		return "Cool name, " + name;
 	}
 }
 //////////////////PROBLEM 11////////////////////
@@ -159,7 +159,7 @@ function pond() {
 let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["cute", "rubberDuck"];
+let bathroomScope = ["duck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
 let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
