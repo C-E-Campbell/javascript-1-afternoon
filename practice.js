@@ -3,13 +3,13 @@
 //Create a variable called myName that is a string data type
 
 //Code here
-
+let myName = "charlie";
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
 //Code here
-
+let myAge = 30;
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
@@ -105,14 +105,14 @@
 let duck = "cute";
 
 function bathroom() {
-  let rubberDuck = "squeaky";
-  function bathtub() {
-    let sailorDuck = "nautical";
-  }
+	let rubberDuck = "squeaky";
+	function bathtub() {
+		let sailorDuck = "nautical";
+	}
 }
 
 function pond() {
-  let realDuck = "fluffy";
+	let realDuck = "fluffy";
 }
 
 //There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck
