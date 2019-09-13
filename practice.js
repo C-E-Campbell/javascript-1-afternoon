@@ -15,19 +15,19 @@ let myAge = 30;
 //Create a variable called lovesCode that is a boolean data type
 
 //Code here
-
+let lovesCode = true;
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
 //Code here
-
+let greatestFear = undefined;
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
 //Code here
-
+let devMountainGoal = null;
 //////////////////PROBLEM 6////////////////////
 
 //Create a function declaration called greeting that
@@ -36,21 +36,25 @@ let myAge = 30;
 //plus the value of the name parameter.
 
 //Code here
-
+function greeting(name) {
+	return `Hello ${name}`;
+}
 //////////////////PROBLEM 7////////////////////
 
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
 //Code Here
-
+const newGreeting = function(name) {
+	return `Hello ${name}`;
+};
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
-
+let groceries = ["apples", "milk", "eggs", "bread"];
 //////////////////PROBLEM 9////////////////////
 
 //Create an object saved to the variable dog.
@@ -59,12 +63,18 @@ let myAge = 30;
 //and goodBoy (a boolean).
 
 //Code Here
+let dog = {
+	name: "Fido",
+	color: "blue/black",
+	age: 2,
+	goodboy: true
+};
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
-
+let devMountainClassPet = dog.name;
 //////////////////PROBLEM 10////////////////////
 
 //Write a function called nameCheck that takes in a name parameter.
